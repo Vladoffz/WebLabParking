@@ -10,5 +10,6 @@ namespace WebLabParking.BLL.Abstract
         IEnumerable<T> GetAll();
         void Update(T obj);
         void Delete(string name);
+        void Get(T obj);
     }
 }
